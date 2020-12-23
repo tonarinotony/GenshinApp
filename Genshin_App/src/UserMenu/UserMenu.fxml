@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserMenu.UserController">
+   <children>
+      <TabPane prefHeight="700.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Artifacts">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="212.0" prefHeight="700.0" prefWidth="989.0">
+                          <columns>
+                            <TableColumn prefWidth="38.0" text="ID" />
+                            <TableColumn prefWidth="133.0" text="TYPE" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="SET" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="CD%" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="CR%" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="Atk%" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="Atk" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="HP%" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="HP" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="DEF%" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="DEF" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="EM" />
+                              <TableColumn maxWidth="70.0" minWidth="20.0" prefWidth="63.0" text="ER%" />
+                              <TableColumn maxWidth="82.0" minWidth="20.0" prefWidth="63.0" text="DMG%" />
+                              <TableColumn maxWidth="82.0" minWidth="20.0" prefWidth="63.0" text="Healing%" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
